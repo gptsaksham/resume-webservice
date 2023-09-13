@@ -113,7 +113,7 @@ def base64_to_pdf(base64_data):
         print(f'Error: {e}')
         return None
 
-@app.route('/pdf-to-base', methods=['POST'])
+@app.route('/', methods=['POST'])
 def pdf_to_base64():
     try:
         # Get the PDF data from the request's data attribute
