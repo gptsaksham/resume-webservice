@@ -112,6 +112,10 @@ def base64_to_pdf(base64_data):
     except Exception as e:
         print(f'Error: {e}')
         return None
+        
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
 
 @app.route('/pdf-to-base', methods=['POST'])
 def pdf_to_base64():
