@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import base64
-import streamlit as st
+#import streamlit as st
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 import PyPDF2
