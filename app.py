@@ -152,7 +152,7 @@ def pdf_to_base64():
             conversation = get_conversation_chain(
                 vectorstore)
             # print('st-->',conversation)
-            response = conversation({'question': 'Tell me the list of skillset'})
+            response = conversation({'question': 'Show all the skillsets separated by commas. Do not add anything apart from skills'})
             # print('response-->',response)
             chat_history = response['chat_history']
         
