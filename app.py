@@ -115,7 +115,7 @@ def base64_to_pdf(base64_data):
         
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, Cloud SynApps!'
 
 @app.route('/pdf-to-base', methods=['POST'])
 def pdf_to_base64():
